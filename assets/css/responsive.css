@@ -1,0 +1,122 @@
+@media only screen and (max-width: 991px) {
+    .banner-content-headding {
+        margin: auto;
+        text-align: center;
+    }
+
+    .banner-content-text {
+        margin: auto;
+        text-align: center;
+    }
+
+    .banner .price-buy ul {
+        text-align: center;
+    }
+
+    .banner .banner-img {
+        margin: auto;
+    }
+
+    .main-image-massege {
+        display: none;
+    }
+
+    .banner-image-option {
+        text-align: center;
+    }
+
+    header nav {
+        display: none;
+    }
+
+    .banner-text-content {
+        text-align: center;
+    }
+
+    .main-banner-img {
+        margin-top: 61px;
+    }
+
+    .banner-content {
+        padding-top: 0px;
+    }
+
+    .main-barnd-logo {
+        color: #000;
+        font-family: 'Noto Sans Bengali', sans-serif;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        display: block;
+        text-align: center;
+        padding-bottom: 47px;
+        padding-top: 90px;
+    }
+
+}
+
+@media only screen and (max-width: 767px) {
+    .info-img {
+        text-align: center;
+    }
+
+    .info-text-content-heading h3 {
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .pakege-section-headding h2 {
+        text-align: center;
+    }
+
+    .pakege-text-para p {
+        text-align: center;
+        padding-right: 0px;
+    }
+
+    .footer-logo {
+        text-align: center;
+    }
+
+    .footer-text {
+        text-align: center;
+        margin: auto;
+    }
+
+    .fl-deadding {
+        text-align: center;
+    }
+
+    .footer-section ul {
+        text-align: center;
+    }
+
+    .footer-contuct ul li {
+        justify-content: center;
+    }
+
+    .fl-deadding {
+        margin-top: 55px;
+    }
+
+    .pakege-picture {
+        text-align: center;
+    }
+
+    .pakege-section-headding h2 {
+        padding-top: 243px;
+        color: #312B2B;
+        font-family: 'Noto Sans Bengali', sans-serif;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 41px;
+        margin-bottom: 30px;
+    }
+
+    .responsive-item {
+        display: block;
+    }
+}

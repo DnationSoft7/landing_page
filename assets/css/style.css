@@ -7,7 +7,11 @@
 
 
 /*====================================================================*/
+
+
 /*                          common                                    */
+
+
 /*====================================================================*/
 
 .custom-p-0 {
@@ -18,12 +22,22 @@
     max-width: 1170px;
 }
 
-/*====================================================================*/
-/*                          common end                                */
-/*====================================================================*/
 
 /*====================================================================*/
+
+
+/*                          common end                                */
+
+
+/*====================================================================*/
+
+
+/*====================================================================*/
+
+
 /*                          nav bar                                   */
+
+
 /*====================================================================*/
 
 .nav-btn {
@@ -62,12 +76,22 @@
     text-transform: capitalize;
 }
 
-/*====================================================================*/
-/*                          nav bar end                               */
-/*====================================================================*/
 
 /*====================================================================*/
+
+
+/*                          nav bar end                               */
+
+
+/*====================================================================*/
+
+
+/*====================================================================*/
+
+
 /*                          banner bar                                */
+
+
 /*====================================================================*/
 
 .banner-area {
@@ -218,10 +242,14 @@
     line-height: normal;
 }
 
-/*====================================================================*/
-/*                          banner bar end                            */
+
 /*====================================================================*/
 
+
+/*                          banner bar end                            */
+
+
+/*====================================================================*/
 
 .custom-card {
     border-radius: 10px;
@@ -281,7 +309,7 @@
 }
 
 .img-parnt-3 {
-    margin-top: 12px;
+    padding-top: 12px;
     margin-bottom: 21px;
 }
 
@@ -290,8 +318,8 @@
     padding-bottom: 120px;
 }
 
-/**/
 
+/**/
 
 .info-img {
     position: relative;
@@ -304,33 +332,32 @@
     z-index: -3;
 }
 
-.fast-laer img{
+.fast-laer img {
     width: 100%;
     height: auto;
     max-width: 324px;
     max-height: 478px;
 }
 
-
-
 .laer-2nd {
     position: absolute;
     left: 0;
     bottom: 30px;
     z-index: -2;
-
 }
+
 .laer-2nd img {
     max-width: 460px;
     max-height: 555px;
     width: 100%;
     height: auto;
 }
+
 .info-img-area {
     position: relative;
 }
 
-.info-slinder img{
+.info-slinder img {
     width: 100%;
     height: auto;
     max-width: 499px;
@@ -381,6 +408,7 @@
     padding-bottom: 191px;
 }
 
+
 /**/
 
 .opportunity-1,
@@ -412,7 +440,6 @@
 
 .product-opportunity-chart ul li {
     display: inline-block;
-
 }
 
 .dot-svg {
@@ -498,12 +525,10 @@
 
 .opportunity-2 .hr {
     width: 335px;
-
 }
 
 .opportunity-3 .hr {
     width: 320px;
-
 }
 
 .opportunity-2 .opp-wep {
@@ -519,12 +544,10 @@
 
 .opportunity-4 .hr {
     width: 367px;
-
 }
 
 .opportunity-5 .hr {
     width: 234px;
-
 }
 
 .opportunity-2 {
@@ -566,6 +589,7 @@
     top: 4px;
 }
 
+
 /* .opportunity-4 .opp-wep,
 .opportunity-5 .opp-wep,
 .opportunity-6 .opp-wep {
@@ -597,7 +621,6 @@
 
 .product-opportunity-section {
     background: linear-gradient(120deg, #DFF9FF 0%, rgba(197, 240, 250, 0.21) 38%, rgba(254, 238, 238, 0.29) 38%, #FDEFCA 61.04%, rgba(254, 238, 238, 0.44) 73%, rgba(255, 194, 236, 0.11) 73%, #FFC2ED 87.62%, rgba(255, 194, 237, 0.98) 87.63%, rgba(255, 194, 237, 0.96) 87.64%, rgba(255, 194, 238, 0.38) 92.62%, rgba(255, 194, 239, 0.29) 93.93%, rgba(255, 194, 239, 0.15) 94.97%, rgba(255, 194, 239, 0.15) 94.97%);
-
 }
 
 .product-opportunity-section-wepper {
@@ -628,7 +651,6 @@
 
 .about-text p span {
     color: #ED464A;
-
 }
 
 .about-us-image {
@@ -663,8 +685,17 @@
 
 .play-btn {
     position: absolute;
-    top: 183px;
-    left: 279px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    margin: auto;
+}
+
+.play-btn svg {
+    margin: auto;
 }
 
 .text-about-video h2 {
@@ -682,8 +713,6 @@
     padding-left: 52px;
     max-width: 384px;
     box-sizing: content-box;
-
-
 }
 
 .text-about-video p {
@@ -803,7 +832,6 @@
     background: #FFF3F3;
 }
 
-
 .footer-section {
     padding-top: 61px;
     padding-bottom: 76px;
@@ -828,7 +856,6 @@
     line-height: 26px;
     padding-top: 55px;
     max-width: 380px;
-
 }
 
 .fl-deadding {
@@ -917,7 +944,7 @@
     right: 8px;
 }
 
-.product-opportunity-hadding h2 span svg{
+.product-opportunity-hadding h2 span svg {
     position: absolute;
     right: 22px;
     bottom: -15px;
@@ -933,3 +960,13 @@
 .responsive-item {
     display: none;
 }
+
+.banner-img{
+
+    animation: mymove 4s infinite;
+}
+@keyframes mymove {
+    0%   {transform: translateX(0px);}
+    50% {transform: translateX(20px);}
+    100%   {transform: translateX(0px);}
+  }
